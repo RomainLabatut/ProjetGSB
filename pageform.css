@@ -1,8 +1,90 @@
-html{
-    width: 100%;
-}
 body{
-    background-image: url('backgroundform.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
+    margin: 0;
+    background: url('backgroundmedic.jpg') no-repeat;
+    background-size: cover;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #bebebeef;
+    border-bottom: solid rgba(62, 77, 68, 0.8);
+    box-shadow: 0px 6px 8px 0px rgba(62, 77, 68, 0.5);
+}
+
+#menu{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+li{
+    margin-left: 40px;
+    background-color: white;
+    height: 50px;
+    width: 150px;
+    list-style: none;
+    border-radius: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* FORMULAIRE */
+
+
+
+h2{
+    font-size: 36px;
+    margin-left: 154px;
+    text-align: center;
+}
+
+.formulaire{
+    border: double black;
+    box-shadow: -25px 20px 7px 1px rgba(2, 2, 2, 0.507);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #00857c;
+    width: 35%;
+    height:410px ;
+    margin-left: 50%;
+    margin-top: 6%;
+
+}
+.lottie{
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.form-control {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+    
+.form-label{
+    justify-content: center;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.form-check{
+    margin-left: 250px;
+}
+.bouton{
+    margin-left: 100px;
+    font-size: 24px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+}
+.bouton:hover{
+    background-color: rgb(1, 206, 161);
+    border: solid black;
 }
