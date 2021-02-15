@@ -36,6 +36,14 @@ h2{
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
 }
+a, h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(7, 7, 224, 0.750);
+    list-style: none;
+    text-decoration: none;
+}
 .btnDRH{
     border: solid black;
     border-radius: 20px;
@@ -65,21 +73,18 @@ h2{
     background-color: rgba(7, 180, 7, 0.432);
     border: solid black;
     border-radius: 20px;
-    margin-top: 50px;
-    margin-left: 140px;
+    margin-left: -70px;
     text-align: center;
 }
 
 .boutonVM:hover{
-    width: 31%;
+    width: 35%;
     background-color: rgb(7, 180, 7);
     border: solid black;
     border-radius: 20px;
-    margin-top: 50px;
-    margin-left: 140px;
+    margin-left: -70px;
     text-align: center;
     box-shadow: 6px 6px 3px 0px rgb(0 0 0 / 20%);
-
 }
 
 

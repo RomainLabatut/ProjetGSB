@@ -1,0 +1,8 @@
+html{
+    width: 100%;
+}
+body{
+    background-image: url('backgroundform.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
