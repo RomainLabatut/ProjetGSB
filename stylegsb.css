@@ -1,17 +1,21 @@
 body{
-    background-color: #b0dbc7;
+    background-color: #66A3D3;
     margin: 0;
 }
 
 .connexion{
     display: flex;
     justify-content: space-around;
-    margin-top: 150px;
+    margin-top: 70px;
 
 }
 
 img{
     height: 175px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 10px 10px 0px rgba(255, 255, 255, 0.55);
+    margin-top: 70px;
 }
 
 .formulaire{
@@ -35,6 +39,7 @@ img{
 h2{
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 a, h5{
     display: flex;
@@ -47,12 +52,21 @@ a, h5{
 .btnDRH{
     border: solid black;
     border-radius: 20px;
+    background-color:#123E6A ;
+    height: 30px;
+    width: 150px;
 }
 .btnDRH:hover{
-    background-color:#51a7a1 ;
+    background-color:#123E6A ;
     border: solid black;
     border-radius: 20px;
     box-shadow: 6px 6px 3px 0px rgb(0 0 0 / 20%);
+    height: 30px;
+    width: 160px;
+}
+.boutonDRH{
+    background-color: #66A3D3 ;
+    border: none;
 }
 
 .champ{
@@ -70,21 +84,26 @@ a, h5{
 
 .boutonVM{
     width: 30%;
-    background-color: rgba(7, 180, 7, 0.432);
+    background-color: #66A3D3;
     border: solid black;
     border-radius: 20px;
     margin-left: -70px;
     text-align: center;
+
 }
 
 .boutonVM:hover{
     width: 35%;
-    background-color: rgb(7, 180, 7);
+    background-color: #5385ac;
     border: solid black;
     border-radius: 20px;
     margin-left: -70px;
     text-align: center;
     box-shadow: 6px 6px 3px 0px rgb(0 0 0 / 20%);
+}
+
+.boutonVM:hover, .boutonVM, .champ, .btnDRH:hover, .btnDRH, .boutonDRH, .boutonDRH:hover{
+    outline-style: none;
 }
 
 
@@ -101,40 +120,29 @@ a, h5{
     width: 8%;
 }
 
-.boutonDRH{
-    width: 150px;
-    background-color: #b0dbc7;
-    border: #b0dbc7;
-}
-
-.boutonDRH:hover{
-    width: 160px;
-    background-color: #b0dbc7;
-    border-radius: 15px;
-}
-
 
 /* FOOTER */
 
 footer{
-    background-color:  #51a7a1;
-    height: 300px;
+    background-color:  #123E6A;
+    height: 150px;
     display: flex;
     align-items: center; 
+    position: fixed;
 }
 .footer{
-    background-color: #00857c;
-    height: 140px;
-    width: 98.7vw;
+    background-color: #0F2841;
+    height: 50px;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+     margin-top: 20px; 
 }
 
 h4{
-    font-size: 250px !important;
-    color:  #51a7a1 ;
+    font-size: 70px !important;
+    color:  #123E6A ;
     font-family: 'Arapey', serif;
     letter-spacing: 3rem;
 
@@ -147,13 +155,13 @@ h4{
     padding: 5px;
 }
 .mention{
-    margin-top: 15px;
-    margin-bottom: -20px;
+    /* margin-top: 15px;
+    margin-bottom: -20px; */
     padding-right: 30px;
     list-style: none;
     text-decoration: none;
     font-weight: bold;
-    color: #00857c;
+    color: black;
 
 }
 
